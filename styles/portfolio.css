@@ -11,6 +11,7 @@
 
 .buttons-list {
   text-align: center;
+  border: 0px;
 }
 
 .buttons-list__button:not(:first-child) {
@@ -19,16 +20,20 @@
 
 .portfolio-list {
   display: flex;
-  margin-top: 34px;
+  flex-basis: calc((100%-60) / 3);
+
   flex-wrap: wrap;
+
+  gap: 30px;
+  margin-top: 34px;
 }
 
-.portfolio-list__item {
-  margin-right: 30px;
-
-  margin-bottom: 30px;
-
-  background-color: var(--c-portfolio);
+.buttons-list__button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+  border: 0px;
 }
 
 .portfolio-list__item:nth-child(3n) {
@@ -43,17 +48,19 @@
 }
 
 .portfolio-list__item {
-  background-color: var(--c-portfolio);
+  background-color: var(--c-white);
 }
 
 .portfolio-list__title {
-  margin-top: 20px;
-  margin-left: 24px;
   color: var(--c-primary);
+}
+
+.potfolio-list__content {
+  padding: 20px 24px 20px 24px;
+  border: 1px solid red;
+  border-top: 0px;
 }
 
 .portfolio-list__text {
   margin-top: 4px;
-  margin-left: 24px;
-  margin-bottom: 20px;
 }
