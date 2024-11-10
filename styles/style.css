@@ -1,0 +1,113 @@
+.container {
+  padding: 0 215px;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero {
+  background-color: var(--c-bg);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--c-white);
+}
+
+.hero-button {
+  margin-top: 30px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--c-blue);
+  color: var(--c-white);
+  cursor: pointer;
+}
+
+.advantages-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.advantages-list__title {
+  color: var(--c-primary);
+}
+
+.advantages-list__text {
+  color: var(--c-secondary);
+}
+
+.benefits-container {
+  padding-bottom: 94px;
+}
+
+.benefits-title {
+  text-align: center;
+  color: var(--c-primary);
+}
+
+.benefits-list {
+  display: flex;
+}
+
+.benefits-list__item {
+  margin-top: 50px;
+}
+
+.benefits-list__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.team-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team {
+  background-color: var(--c-section);
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-title {
+  text-align: center;
+  color: var(--c-primary);
+}
+
+.team-list__item {
+  margin-top: 50px;
+  gap: 0px;
+  border-radius: 0px 0px 4px 4px;
+
+  background-color: var(--c-white);
+}
+
+.team-list__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.team-list__title {
+  margin-top: 30px;
+  color: var(--c-primary);
+}
+
+.team-list__text {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: var(--c-secondary);
+}
